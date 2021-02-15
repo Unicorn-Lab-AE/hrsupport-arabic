@@ -31,17 +31,20 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 {
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Weight = AdaptiveTextWeight.Bolder,
                         Text = Resource.ResponseHeaderText,
                         Wrap = true,
                     },
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Text = question,
                         Wrap = true,
                     },
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Text = answer,
                         Wrap = true,
                     }

@@ -28,6 +28,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 {
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Text = Resource.WelcomeTeamCardContent,
                         Wrap = true
                     }

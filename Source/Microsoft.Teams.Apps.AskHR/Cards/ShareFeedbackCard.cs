@@ -70,6 +70,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 {
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Weight = AdaptiveTextWeight.Bolder,
                         Text = !string.IsNullOrWhiteSpace(data.UserQuestion) ? Resource.ResultsFeedbackText : Resource.ShareFeedbackTitleText,
                         Size = AdaptiveTextSize.Large,
@@ -86,6 +87,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                                 {
                                     new AdaptiveTextBlock
                                     {
+                                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                                         Text = Resource.FeedbackRatingRequired,
                                         Wrap = true
                                     }
@@ -99,7 +101,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                                     {
                                         Text = (showValidationErrors && !Enum.TryParse(data.Rating, out FeedbackRating rating)) ? Resource.RatingMandatoryText : string.Empty,
                                         Color = AdaptiveTextColor.Attention,
-                                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
+                                        HorizontalAlignment = AdaptiveHorizontalAlignment.Left,
                                         Wrap = true
                                     }
                                 }
@@ -132,6 +134,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     },
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Text = Resource.DescriptionText,
                         Wrap = true,
                     },

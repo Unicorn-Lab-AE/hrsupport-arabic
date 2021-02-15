@@ -37,6 +37,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 {
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Text = cardMessage,
                         Wrap = true
                     },
@@ -46,6 +47,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         {
                             new AdaptiveTextBlock
                             {
+                                HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                                 Text = tile.Title,
                                 Wrap = true,
                                 Weight = AdaptiveTextWeight.Bolder
@@ -61,6 +63,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                             },
                             new AdaptiveTextBlock
                             {
+                                HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                                 Text = tile.Description,
                                 Wrap = true,
                                 MaxLines = 3

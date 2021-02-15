@@ -34,23 +34,27 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                {
                    new AdaptiveTextBlock()
                    {
+                       HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                        Text = Resource.SMEFeedbackHeaderText,
                        Weight = AdaptiveTextWeight.Bolder,
                        Size = AdaptiveTextSize.Medium,
                    },
                    new AdaptiveTextBlock()
                    {
+                       HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                        Text = string.Format(Resource.FeedbackAlertText, userDetails.Name),
                        Wrap = true,
                    },
                    new AdaptiveTextBlock()
                    {
+                       HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                        Text = Resource.RatingTitle,
                        Weight = AdaptiveTextWeight.Bolder,
                        Wrap = true,
                    },
                    new AdaptiveTextBlock()
                    {
+                       HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                        Text = GetRatingDisplayText(data.Rating),
                        Spacing = AdaptiveSpacing.None,
                        Wrap = true,
@@ -71,12 +75,14 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
             {
                 smeFeedbackCard.Body.Add(new AdaptiveTextBlock()
                 {
+                    HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                     Text = Resource.DescriptionText,
                     Weight = AdaptiveTextWeight.Bolder,
                     Wrap = true,
                 });
                 smeFeedbackCard.Body.Add(new AdaptiveTextBlock()
                 {
+                    HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                     Text = CardHelper.TruncateStringIfLonger(data.Description, CardHelper.DescriptionMaxDisplayLength),
                     Spacing = AdaptiveSpacing.None,
                     Wrap = true,
@@ -108,6 +114,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                             {
                                new AdaptiveTextBlock
                                {
+                                   HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                                    Text = CardHelper.TruncateStringIfLonger(data.KnowledgeBaseAnswer, CardHelper.KnowledgeBaseAnswerMaxDisplayLength),
                                    Wrap = true
                                }

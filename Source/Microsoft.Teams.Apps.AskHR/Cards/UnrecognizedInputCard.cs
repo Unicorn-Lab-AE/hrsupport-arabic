@@ -30,6 +30,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 {
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Text = cardMessage,
                         Wrap = true
                     }

@@ -47,6 +47,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 {
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Text = this.Ticket.Title,
                         Size = AdaptiveTextSize.Large,
                         Weight = AdaptiveTextWeight.Bolder,
@@ -54,6 +55,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     },
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Text = string.Format(Resource.QuestionForExpertSubHeaderText, this.Ticket.RequesterName),
                         Wrap = true,
                     },
@@ -112,6 +114,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         {
                             new AdaptiveTextBlock
                             {
+                                HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                                 Text = CardHelper.TruncateStringIfLonger(this.Ticket.KnowledgeBaseAnswer, CardHelper.KnowledgeBaseAnswerMaxDisplayLength),
                                 Wrap = true,
                             }

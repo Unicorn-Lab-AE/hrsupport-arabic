@@ -69,6 +69,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 {
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Weight = AdaptiveTextWeight.Bolder,
                         Text = Resource.AskAnExpertText1,
                         Size = AdaptiveTextSize.Large,
@@ -76,6 +77,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     },
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Text = Resource.AskAnExpertSubheaderText,
                         Wrap = true
                     },
@@ -90,6 +92,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                                 {
                                     new AdaptiveTextBlock
                                     {
+                                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                                         Text = Resource.TitleRequiredText,
                                         Wrap = true
                                     }
@@ -120,6 +123,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     },
                     new AdaptiveTextBlock
                     {
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Text = Resource.DescriptionText,
                         Wrap = true
                     },

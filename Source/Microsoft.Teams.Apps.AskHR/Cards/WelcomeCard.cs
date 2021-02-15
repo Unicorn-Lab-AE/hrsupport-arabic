@@ -29,7 +29,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 {
                     new AdaptiveTextBlock
                     {
-                        HorizontalAlignment = AdaptiveHorizontalAlignment.Left,
+                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
                         Text = welcomeText,
                         Wrap = true
                     }

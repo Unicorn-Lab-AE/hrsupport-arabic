@@ -118,24 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="InvalidKnowledgeBaseId" xml:space="preserve">
-    <value>The provided knowledge base ID is not valid.</value>
+    <value>"knowledge base ID" المقدم غير صالح</value>
   </data>
   <data name="TeamIdValidMessage" xml:space="preserve">
-    <value>The provided team ID is not valid.</value>
+    <value>"team ID" المقدم غير صالح</value>
   </data>
   <data name="UnableToSaveHelpText" xml:space="preserve">
-    <value>Sorry, unable to save the help tab text due to an internal error. Try again.</value>
+    <value>عذرًا ، تعذر حفظ نص علامة تبويب المساعدة بسبب خطأ داخلي. حاول مجددا.</value>
   </data>
   <data name="UnableToSaveKnowledgeBaseId" xml:space="preserve">
-    <value>Sorry, unable to save the knowledge base ID due to an internal error. Try again.</value>
+    <value>عذرًا ، تعذر حفظ معرف قاعدة المعارف بسبب خطأ داخلي. حاول مجددا.</value>
   </data>
   <data name="UnabletoSaveQnAKey" xml:space="preserve">
-    <value>Sorry, unable to save the QnAMaker endpoint key due to an internal error. Try again.</value>
+    <value>عذرًا ، تعذر حفظ   "QnAMaker endpoint key" بسبب خطأ داخلي. حاول مجددا.</value>
   </data>
   <data name="UnableToSaveTeamId" xml:space="preserve">
-    <value>Sorry, unable to save the team ID due to an internal error. Try again.</value>
+    <value>عذرًا ، تعذر حفظ   "team ID" بسبب خطأ داخلي. حاول مجددا.</value>
   </data>
   <data name="UnableToSaveWelcomeMsg" xml:space="preserve">
-    <value>Sorry, unable to save the welcome message due to an internal error. Try again.</value>
+    <value>عذرًا ، تعذر حفظ رسالة ترحيب بسبب خطأ داخلي. حاول مجددا.</value>
   </data>
 </root>

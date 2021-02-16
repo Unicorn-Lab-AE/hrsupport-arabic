@@ -118,38 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DefaultHelpTabText" xml:space="preserve">
-    <value>Hi, I'm your friendly Q&amp;A bot. You can ask me questions, and I'll do my best to answer. If I can't help, I'll connect you to an expert.
-
-My key features:
-
-* Ask a question, get an answer
-* Ask an expert
-* Share feedback</value>
+    <value>
+    مرحبًا، أنا مساعد الالي للأسئلة والأجوبة الودية. يمكنك أن تسألني، وسأبذل قصارى جهدي للإجابة. إذا لم أستطع المساعدة، فسأوصلك بخبير. ميزاتي الرئيسية: * طرح سؤال، والحصول على الجواب * اسأل خبير * مشاركة التعليقات
+    </value>
     <comment>Default help static tab text to be stored in configuration app</comment>
   </data>
   <data name="DefaultWelcomeMessage" xml:space="preserve">
-    <value>Hi, I'm your friendly Q&amp;A bot. You can ask me questions, and I'll do my best to answer. If I can't help, I'll connect you to an expert.
-
-You can ask the following questions:
-* How do you work?
-* Which benefits are available?
-* What things are available here right now?</value>
+    <value>
+    مرحبًا ، أنا مساعد الالي للأسئلة والأجوبة الودية. يمكنك أن تسألني، وسأبذل قصارى جهدي للإجابة. إذا لم أستطع المساعدة ، فسأوصلك بخبير. يمكنك طرح الأسئلة التالية: كيف تعمل؟ ما هي الفوائد المتوفرة؟  ما الأشياء المتوفرة هنا الآن؟
+    </value>
     <comment>Default welcome message text to be stored in configuration app</comment>
   </data>
   <data name="HelpTabTextToolTipHoverMessage" xml:space="preserve">
-    <value>Provide text which will be displayed in Help tab of the bot and then click on Ok to add or Edit to modify</value>
+    <value>قم بتوفير النص الذي سيتم عرضه في علامة التبويب "تعليمات" ثم انقر على "Ok" للإضافة او "Modify" للتعديل</value>
     <comment>Message for help tab when information icon is hovered</comment>
   </data>
   <data name="KnowledgeBaseToolTipHoverMessage" xml:space="preserve">
-    <value>Provide a valid knowledgebase Id which will be used by bot and then click on Ok to add or Edit to modify</value>
+    <value>قم بتوفير "knowledgebase Id" ثم انقر على "Ok" للإضافة او "Modify" للتعديل</value>
     <comment>Message for knowledgebase Id when information icon is hovered</comment>
   </data>
   <data name="TeamIdToolTipHoverMessage" xml:space="preserve">
-    <value>Provide a team Id deeplink which will be used by bot and then click on Ok to add or Edit to modify</value>
+    <value>قم بتوفير "team Id deeplink" ثم انقر على "Ok" للإضافة او "Modify" للتعديل</value>
     <comment>Message for team Id when information icon is hovered</comment>
   </data>
   <data name="WelcomeMessageToolTipHoverMessage" xml:space="preserve">
-    <value>Provide a welcome message which will be used by bot and then click on Ok to add or Edit to modify</value>
+    <value>قم بتوفير رسالة ترحيب ثم انقر على "Ok" للإضافة او "Modify" للتعديل</value>
     <comment>Message for welcome message when information icon is hovered</comment>
   </data>
 </root>

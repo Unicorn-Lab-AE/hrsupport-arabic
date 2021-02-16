@@ -253,7 +253,9 @@ namespace Microsoft.Teams.Apps.AskHR.Bots
                 case TakeATour:
                     this.telemetryClient.TrackTrace("Sending user tour card");
                     var userTourCards = TourCarousel.GetUserTourCards(this.appBaseUri);
-                    await turnContext.SendActivityAsync(MessageFactory.Carousel(userTourCards));
+                    await turnContext.SendActivityAsync(MessageFactory.Attachment(userTourCards.ElementAt(0)));
+                    await turnContext.SendActivityAsync(MessageFactory.Attachment(userTourCards.ElementAt(1)));
+                    await turnContext.SendActivityAsync(MessageFactory.Attachment(userTourCards.ElementAt(2)));
                     break;
 
                 default:

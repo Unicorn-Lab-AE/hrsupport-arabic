@@ -64,28 +64,28 @@ class AskHRTiles extends Component {
                             document.getElementById("root").style.display = "block";
                         }
                         else {
-                            this.setState({ noDataAvailableMessage: "My Team of Experts hasn't added anything here yet." });
+                            this.setState({ noDataAvailableMessage: "فريق الخبراء لم يضف أي شيء حتى الآن" });
                             console.log(this.state.noDataAvailableMessage);
                         }
                     }
                     else {
-                        this.setState({ noDataAvailableMessage: "Oops!!! Something went wrong." });
+                        this.setState({ noDataAvailableMessage: "حدث خطأ ما" });
                         console.log(this.state.noDataAvailableMessage);
                     }
                 },
                     (error) => {
-                        this.setState({ error: error, noDataAvailableMessage: "Oops!!! Something went wrong." });
+                        this.setState({ error: error, noDataAvailableMessage: "حدث خطأ ما" });
                         console.error(this.state.error);
                         ai.appInsights.trackException({ name: this.state.error });
                     })
                 .catch((error) => {
-                    this.setState({ error: error, noDataAvailableMessage: "Oops!!! Something went wrong." });
+                    this.setState({ error: error, noDataAvailableMessage: "حدث خطأ ما" });
                     console.error(this.state.error);
                     ai.appInsights.trackException({ name: this.state.error });
                 });
         }
         else {
-            console.log("token is found null in cache. User is required to explicitly sign in.");
+            console.log("مطلوب من المستخدم تسجيل الدخول");
         }
     }
 

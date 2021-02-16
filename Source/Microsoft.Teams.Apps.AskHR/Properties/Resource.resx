@@ -162,7 +162,7 @@
     <comment>Shows user requested question.</comment>
   </data>
     <data name="StatusFactTitle" xml:space="preserve">
-    <value>:حالة الطلب</value>
+   <value>حالة الطلب:</value>
     <comment>Status one of the available fact set in notification cards.</comment>
   </data>
     <data name="AskAnExpertButtonText" xml:space="preserve">

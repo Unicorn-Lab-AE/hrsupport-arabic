@@ -46,9 +46,9 @@ body::-webkit-scrollbar-thumb {
     color: #3a3939;
     height: 4.7rem;
     font-weight: bold;
-    text-align: left;
+    text-align: right;
     font-size: 1.8rem;
-    padding-left: 0.1rem;
+    padding-right: 0.1rem;
     padding-top: 2rem;
     font-family: segoe UI, Arial,sans-serif;
     overflow: hidden;
@@ -88,9 +88,9 @@ body::-webkit-scrollbar-thumb {
 .description {
     width: 91%;
     height: 5.9rem;
-    float: left;
-    text-align: left;
-    padding-left: 1.6rem;
+    float: right;
+    text-align: right;
+    padding-right: 1.6rem;
     font-family: segoe UI, Arial,sans-serif;
     font-size: 1.4rem;
     color: #484644;
